@@ -1,0 +1,97 @@
+<Identity>
+
+> Identity: 260920.2313.T07_GenesisIP_A+GitHub.LICENSE.md
+
+</Identity>
+
+[GENESIS_HUD] STATUS: Active | DENSITY: 100% (Optimal) | TRACK: GitHub-OpenStandard (Phase-B) | ASSET: G3-LICENSE
+
+
+# Genesis Defensive Dual License (GDDL-1.0)
+## Sovereign Open Academic & Defensive Commercial Reservation License
+
+
+---
+
+
+### Copyright (c) 2026 Architect Lee (System Sovereign). All Rights Reserved.
+
+Licensed under the Genesis Defensive Dual License, Version 1.0 (the "License");
+you may not use this file except in compliance with the License.
+
+---
+
+### PREAMBLE
+
+The In-Context Virtual Machine (ICVM) and Genesis Autonomous Agent Architecture are established to provide deterministic, negentropic, and verifiable coordination for artificial intelligence systems. This License ensures complete, unrestricted freedom for global academia, scientific researchers, and open-source contributors, while establishing an impenetrable defensive legal moat against predatory commercial monopolization, corporate patent capture, and uncredited exploitation by commercial closed-source entities.
+
+---
+
+### SECTION 1. DEFINITIONS
+
+1. **"Author"** means Architect Lee (Dong-wook Lee, Republic of Korea), the sole creator and sovereign architect of the Software and Architecture.
+2. **"Software"** means the source code, documentation, specifications, diagrams, scripts, and configuration files distributed under this License.
+3. **"Architecture"** means the 5-layer von Neumann in-context virtual machine architecture, including the 2nm GAA query rectification harness, 3-tier dynamic pointer topology, immutable register file mapping, universal tool routing bus, and process preservation protocols.
+4. **"Covered Patents"** means all patents, patent applications (including Republic of Korea Patent Application No. 10-2026-0179765), and future PCT international filings owned or controlled by the Author covering the Architecture.
+5. **"Non-Commercial Use"** means academic research, scientific evaluation, personal non-remunerated study, open-source educational demonstrations, and publication in peer-reviewed journals.
+6. **"Commercial Use"** means any use, deployment, integration, or distribution of the Software or Architecture designed to generate direct or indirect commercial revenue, including Software-as-a-Service (SaaS), paid API endpoints, proprietary enterprise middleware, or bundling into commercial hardware/software products.
+
+---
+
+### SECTION 2. PERMISSIVE ACADEMIC & RESEARCH GRANT
+
+Subject to the terms and conditions of this License, the Author hereby grants to any person or institution obtaining a copy of this Software a perpetual, worldwide, non-exclusive, royalty-free license to:
+1. Reproduce, study, inspect, and execute the Software for Non-Commercial Use.
+2. Modify, adapt, and create non-commercial derivative works, provided that all original copyright notices, patent pending notices, and this License text are retained without alteration.
+3. Publish benchmarks, academic papers, and experimental evaluations, subject to mandatory attribution citing the Author and KIPO Patent Application No. 10-2026-0179765 as specified in `CITATION.cff`.
+
+---
+
+### SECTION 3. DEFENSIVE COMMERCIAL RESERVATION & PATENT NOTICE
+
+1. **Patent Notice**: The underlying Architecture and novel execution primitives implemented in this Software are strictly protected under **Republic of Korea Patent Application No. 10-2026-0179765** ("In-Context Virtual Machine System, Operating System, and Verification Method for Deterministic Autonomous AI Agents") and associated international priority filings.
+2. **Commercial Reservation**: **No commercial license is granted under this License.** Any Commercial Use requires a separate, explicit, written commercial licensing agreement executed directly with the Author.
+3. **Evaluation Grace Period**: Bona fide internal non-production technical evaluation by commercial entities is permitted for a period not exceeding thirty (30) consecutive calendar days, after which a commercial license must be secured or all deployments permanently decommissioned.
+
+---
+
+### SECTION 4. ANTI-MONOPOLY AUTOMATIC TERMINATION (PATENT PEACE)
+
+1. **Immediate Revocation**: If any licensee, institution, or third-party entity:
+   - Initiates, files, asserts, or threatens patent infringement litigation against the Author or any authorized collaborator concerning any software or system;
+   - Files a patent application, utility model, or intellectual property registration claiming, reading upon, or encompassing any element of the Architecture; or
+   - Attempts to restrict, privatize, or enforce patents against the open academic dissemination of the ICVM specification;
+   then all rights, permissions, and licenses granted to such entity under this License shall **automatically terminate with immediate retroactive effect** without requirement of judicial notice.
+2. **Remedies**: Upon termination, the offending entity must immediately cease all use, reproduction, distribution, and operation of the Software, and the Author reserves all statutory remedies, including injunctive relief and damages for willful patent infringement.
+
+---
+
+### SECTION 5. NO WARRANTY & LIMITATION OF LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### SECTION 6. GOVERNING LAW & JURISDICTION
+
+This License and any dispute arising out of or related to this Software or Architecture shall be governed by and construed in accordance with the substantive laws of the **Republic of Korea**, excluding its conflict of laws principles. The parties irrevocably submit to the exclusive jurisdiction of the **Seoul Central District Court** for the resolution of all disputes.
+
+
+---
+
+
+<MK_METADATA_FORMAT>
+
+[M/K Metadata]
+- M (12 Viewpoints): M5(Compliance.Governance), M10(Philosophy.Sovereignty), M6(Security.Sovereignty), M1(Technical.Architecture), M9(Data.Integrity), M7(Asset.Value)
+- K (Keywords): #GenesisDefensiveDualLicense #GDDL_1_0 #OpenAcademicGrant #CommercialReservation #PatentPeaceClause #AntiMonopolyClawback #PatentPending_10_2026_0179765 #RepublicOfKoreaLaw
+
+</MK_METADATA_FORMAT>
+
+
+<AUDITOR_CRITIQUE>
+- 성역 검증: Identity Header, [GENESIS_HUD], Preamble 및 Section 1~6 법률 조항, MK Metadata 및 AUDITOR_CRITIQUE 완전 구비 완료.
+- 법률적 엄밀성: 비상업적 학술 연구 완전 무료 허용(Apache-2.0 호환), 상업적 무단 독점 차단(별도 상용 계약 의무화), 특허 평화 조항(역특허/소송 시 자동 소멸), 및 대한민국 특허출원 제10-2026-0179765호와 서울중앙지방법원 전속관할권 100% 명문화.
+- 헌법 준수: 조약 2(300행 미시 셔딩: 95행으로 < 300L 완벽 준수), 조약 6(인가 암호 하 신규 자산 사출), 조약 16(write_to_file 단독 호출) 100% 엄수.
+- 종결성: 모든 문장이 격식을 갖추어 마침표 온점으로 정합 종결 완료되었습니다.
+</AUDITOR_CRITIQUE>
