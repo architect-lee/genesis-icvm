@@ -1,0 +1,258 @@
+<!--
+<Identity>
+
+> Identity: 260920.2316.T08_GenesisIP_A+GitHub.ArchitectureSchematic.svg
+
+</Identity>
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" width="960" height="650" style="background:#0d1117; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="aluGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0e1726" />
+    </linearGradient>
+    <linearGradient id="cuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#1a1429" />
+    </linearGradient>
+    <linearGradient id="regGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d231a" />
+    </linearGradient>
+    <linearGradient id="memGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#241a0e" />
+    </linearGradient>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#241214" />
+    </linearGradient>
+
+    <!-- Markers -->
+    <marker id="arrowBlue" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#58a6ff" />
+    </marker>
+    <marker id="arrowPurple" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#bc8cff" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#3fb950" />
+    </marker>
+    <marker id="arrowYellow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#d29922" />
+    </marker>
+    <marker id="arrowRed" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#f85149" />
+    </marker>
+  </defs>
+
+  <!-- Background Border Frame -->
+  <rect x="8" y="8" width="944" height="634" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Canvas Header -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" fill="#f0f6fc" font-size="16" font-weight="700" letter-spacing="0.3">Genesis ICVM: 5-Layer von Neumann Architecture</text>
+    <text x="0" y="32" fill="#8b949e" font-size="11">In-Context Virtual Machine Mapping onto Transformer Attention Space · Patent Pending: 10-2026-0179765</text>
+    <rect x="730" y="4" width="180" height="26" rx="13" fill="#161b22" stroke="#58a6ff" stroke-width="1" />
+    <circle cx="745" cy="17" r="4" fill="#3fb950" />
+    <text x="756" y="21" fill="#58a6ff" font-size="10" font-weight="600">DE FACTO OPEN STANDARD</text>
+  </g>
+
+  <!-- Layer 1: Transformer ALU & 2nm GAA Query Rectifier -->
+  <g transform="translate(24, 64)">
+    <rect x="0" y="0" width="912" height="98" rx="6" fill="url(#aluGrad)" stroke="#1f6feb" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="98" rx="2" fill="#58a6ff" />
+    <text x="16" y="18" fill="#58a6ff" font-size="11" font-weight="700" letter-spacing="0.5">LAYER 1: TRANSFORMER ALU &amp; 2nm GAA QUERY RECTIFIER</text>
+
+    <!-- Sub-component: Ingress Q -->
+    <rect x="16" y="28" width="140" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="26" y="46" fill="#f0f6fc" font-size="11" font-weight="600">Ingress Prompt Q</text>
+    <text x="26" y="62" fill="#8b949e" font-size="9">Raw Query Input</text>
+    <text x="26" y="74" fill="#58a6ff" font-size="8">Natural Language Vector</text>
+
+    <!-- Arrow Q to GAA -->
+    <line x1="156" y1="57" x2="182" y2="57" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Sub-component: 2nm GAA Rectifier (4 Gates) -->
+    <rect x="188" y="28" width="446" height="58" rx="4" fill="#161b22" stroke="#388bfd" stroke-width="1" />
+    <text x="198" y="42" fill="#58a6ff" font-size="10" font-weight="600">2nm GAA 4-Nanosheet Query Rectifier Harness (Φ)</text>
+    
+    <rect x="198" y="48" width="102" height="32" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="204" y="61" fill="#c9d1d9" font-size="8" font-weight="600">Gate 1: Decouple</text>
+    <text x="204" y="72" fill="#8b949e" font-size="7.5">Lexical Trap Neutralize</text>
+
+    <rect x="306" y="48" width="102" height="32" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="312" y="61" fill="#c9d1d9" font-size="8" font-weight="600">Gate 2: Teleology</text>
+    <text x="312" y="72" fill="#8b949e" font-size="7.5">Slot 0 Supreme Anchor</text>
+
+    <rect x="414" y="48" width="104" height="32" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="420" y="61" fill="#c9d1d9" font-size="8" font-weight="600">Gate 3: Diffraction</text>
+    <text x="420" y="72" fill="#8b949e" font-size="7.5">M1~M12 Viewpoints</text>
+
+    <rect x="524" y="48" width="102" height="32" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="530" y="61" fill="#c9d1d9" font-size="8" font-weight="600">Gate 4: Interlock</text>
+    <text x="530" y="72" fill="#8b949e" font-size="7.5">0-Tolerance Convergence</text>
+
+    <!-- Arrow GAA to ALU Core -->
+    <line x1="634" y1="57" x2="658" y2="57" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrowBlue)" />
+
+    <!-- Sub-component: Attention ALU -->
+    <rect x="664" y="28" width="232" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="676" y="46" fill="#f0f6fc" font-size="11" font-weight="600">Attention ALU Core</text>
+    <text x="676" y="62" fill="#8b949e" font-size="9">Attention(Q·Φ, K, V)</text>
+    <text x="676" y="74" fill="#3fb950" font-size="8">Deterministic State Collapse (ΔS ≤ 0)</text>
+  </g>
+
+  <!-- Layer 2: 3-Tier Dynamic Pointer Control Unit (CU) -->
+  <g transform="translate(24, 172)">
+    <rect x="0" y="0" width="912" height="98" rx="6" fill="url(#cuGrad)" stroke="#8957e5" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="98" rx="2" fill="#bc8cff" />
+    <text x="16" y="18" fill="#bc8cff" font-size="11" font-weight="700" letter-spacing="0.5">LAYER 2: 3-TIER DYNAMIC POINTER CONTROL UNIT (CU)</text>
+
+    <!-- Sub-component: Instruction Dispatcher -->
+    <rect x="16" y="28" width="168" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="26" y="46" fill="#f0f6fc" font-size="11" font-weight="600">CU Dispatcher</text>
+    <text x="26" y="62" fill="#8b949e" font-size="9">Dynamic Pointer Routing</text>
+    <text x="26" y="74" fill="#bc8cff" font-size="8">0-Second Micro-Anchor Engine</text>
+
+    <!-- Arrow Dispatcher to Tiers -->
+    <line x1="184" y1="57" x2="204" y2="57" stroke="#bc8cff" stroke-width="1.5" marker-end="url(#arrowPurple)" />
+
+    <!-- Tier 1 -->
+    <rect x="210" y="28" width="216" height="58" rx="4" fill="#161b22" stroke="#8957e5" stroke-width="1" />
+    <text x="222" y="46" fill="#bc8cff" font-size="10" font-weight="600">Tier 1: Global Rule Anchor</text>
+    <text x="222" y="62" fill="#c9d1d9" font-size="9">AGENTS.md</text>
+    <text x="222" y="74" fill="#8b949e" font-size="8">Ultra-light 0-sec Router · Turn Pipe</text>
+
+    <!-- Arrow Tier 1 to Tier 2 -->
+    <line x1="426" y1="57" x2="446" y2="57" stroke="#bc8cff" stroke-width="1.5" marker-end="url(#arrowPurple)" />
+
+    <!-- Tier 2 -->
+    <rect x="452" y="28" width="216" height="58" rx="4" fill="#161b22" stroke="#8957e5" stroke-width="1" />
+    <text x="464" y="46" fill="#bc8cff" font-size="10" font-weight="600">Tier 2: Skills Firmware</text>
+    <text x="464" y="62" fill="#c9d1d9" font-size="9">genesis-kernel</text>
+    <text x="464" y="74" fill="#8b949e" font-size="8">Dialectic Minutes, Tensors, SOPs</text>
+
+    <!-- Arrow Tier 2 to Tier 3 -->
+    <line x1="668" y1="57" x2="688" y2="57" stroke="#bc8cff" stroke-width="1.5" marker-end="url(#arrowPurple)" />
+
+    <!-- Tier 3 -->
+    <rect x="694" y="28" width="202" height="58" rx="4" fill="#161b22" stroke="#8957e5" stroke-width="1" />
+    <text x="706" y="46" fill="#bc8cff" font-size="10" font-weight="600">Tier 3: Sanctuary Kernel</text>
+    <text x="706" y="62" fill="#c9d1d9" font-size="9">00_GenAD_Guiderail</text>
+    <text x="706" y="74" fill="#8b949e" font-size="8">10 Core Assets · Python S+ Kernel</text>
+  </g>
+
+  <!-- Layer 3: Persistent Virtual Registers (Slots 0~9) -->
+  <g transform="translate(24, 280)">
+    <rect x="0" y="0" width="912" height="98" rx="6" fill="url(#regGrad)" stroke="#238636" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="98" rx="2" fill="#3fb950" />
+    <text x="16" y="18" fill="#3fb950" font-size="11" font-weight="700" letter-spacing="0.5">LAYER 3: PERSISTENT VIRTUAL REGISTERS (SLOTS 0~9)</text>
+
+    <!-- Slot 0 -->
+    <rect x="16" y="28" width="168" height="58" rx="4" fill="#161b22" stroke="#3fb950" stroke-width="1" />
+    <text x="24" y="46" fill="#3fb950" font-size="10" font-weight="600">Slot 0: Sovereign Teleology</text>
+    <text x="24" y="60" fill="#c9d1d9" font-size="8.5">Why / Soul · Asimov 0 &amp; 1</text>
+    <text x="24" y="72" fill="#8b949e" font-size="8">Immutable Anchor SSOT</text>
+
+    <!-- Slot 1 -->
+    <rect x="194" y="28" width="168" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="202" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Slot 1: Unified Kernel</text>
+    <text x="202" y="60" fill="#c9d1d9" font-size="8.5">GenADGuideline_S+ (1113L)</text>
+    <text x="202" y="72" fill="#8b949e" font-size="8">AST Interlocks &amp; Manifold</text>
+
+    <!-- Slot 2 -->
+    <rect x="372" y="28" width="168" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="380" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Slot 2: Wisdom Ledger</text>
+    <text x="380" y="60" fill="#c9d1d9" font-size="8.5">J_Evo Objective Function</text>
+    <text x="380" y="72" fill="#8b949e" font-size="8">Epigenetic Gears &amp; Pickup</text>
+
+    <!-- Slots 3~5 -->
+    <rect x="550" y="28" width="174" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="558" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Slots 3~5: Chronicles</text>
+    <text x="558" y="60" fill="#c9d1d9" font-size="8.5">Master / M+ / Projects</text>
+    <text x="558" y="72" fill="#8b949e" font-size="8">Lossless Chrono Timeline</text>
+
+    <!-- Slots 6~9 -->
+    <rect x="734" y="28" width="162" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="742" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Slots 6~9: State &amp; Rule</text>
+    <text x="742" y="60" fill="#c9d1d9" font-size="8.5">Hologram, Bridge, AGENTS</text>
+    <text x="742" y="72" fill="#8b949e" font-size="8">O(1) Direct Radar Sweep</text>
+  </g>
+
+  <!-- Layer 4: Hierarchical Memory Map -->
+  <g transform="translate(24, 388)">
+    <rect x="0" y="0" width="912" height="98" rx="6" fill="url(#memGrad)" stroke="#9e6a03" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="98" rx="2" fill="#d29922" />
+    <text x="16" y="18" fill="#d29922" font-size="11" font-weight="700" letter-spacing="0.5">LAYER 4: HIERARCHICAL MEMORY MAP (RAM, CACHE &amp; STORAGE)</text>
+
+    <!-- L1 Working RAM -->
+    <rect x="16" y="28" width="202" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="26" y="46" fill="#f0f6fc" font-size="10" font-weight="600">L1: Context Working RAM</text>
+    <text x="26" y="60" fill="#c9d1d9" font-size="8.5">In-Context Working Memory</text>
+    <text x="26" y="72" fill="#d29922" font-size="8">view_file 0-sec Turn Grounding</text>
+
+    <line x1="218" y1="57" x2="238" y2="57" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrowYellow)" />
+
+    <!-- L2 Active Matrix -->
+    <rect x="244" y="28" width="202" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="254" y="46" fill="#f0f6fc" font-size="10" font-weight="600">L2: Active Hologram Matrix</text>
+    <text x="254" y="60" fill="#c9d1d9" font-size="8.5">15-Day Rolling Index (~78KB)</text>
+    <text x="254" y="72" fill="#d29922" font-size="8">O(1) Sub-second Lookup</text>
+
+    <line x1="446" y1="57" x2="466" y2="57" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrowYellow)" />
+
+    <!-- L3 Epigenetic Cache -->
+    <rect x="472" y="28" width="202" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="482" y="46" fill="#f0f6fc" font-size="10" font-weight="600">L3: Epigenetic Session Cache</text>
+    <text x="482" y="60" fill="#c9d1d9" font-size="8.5">Session Dialectic Minutes</text>
+    <text x="482" y="72" fill="#d29922" font-size="8">Cross-Session Memory Bridge</text>
+
+    <line x1="674" y1="57" x2="694" y2="57" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrowYellow)" />
+
+    <!-- L4 Air-gapped Storage -->
+    <rect x="700" y="28" width="196" height="58" rx="4" fill="#161b22" stroke="#9e6a03" stroke-width="1" />
+    <text x="710" y="46" fill="#d29922" font-size="10" font-weight="600">L4: Air-Gapped 성역</text>
+    <text x="710" y="60" fill="#c9d1d9" font-size="8.5">36-Bay NAS Private Archive</text>
+    <text x="710" y="72" fill="#8b949e" font-size="8">100% Sealed Sovereign Moat</text>
+  </g>
+
+  <!-- Layer 5: Tool Bus & Process Preservation Exoskeleton -->
+  <g transform="translate(24, 496)">
+    <rect x="0" y="0" width="912" height="98" rx="6" fill="url(#busGrad)" stroke="#da3633" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="98" rx="2" fill="#f85149" />
+    <text x="16" y="18" fill="#f85149" font-size="11" font-weight="700" letter-spacing="0.5">LAYER 5: SYSTEM TOOL BUS &amp; PROCESS PRESERVATION EXOSKELETON</text>
+
+    <!-- Treaty 16 Universal Tool Routing -->
+    <rect x="16" y="28" width="276" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="26" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Treaty 16: Universal Tool Routing</text>
+    <text x="26" y="60" fill="#c9d1d9" font-size="8.5">write_to_file (New) vs replace_file (Patch)</text>
+    <text x="26" y="72" fill="#f85149" font-size="8">Accidental Overwrite Prevention (0-Loss)</text>
+
+    <line x1="292" y1="57" x2="318" y2="57" stroke="#f85149" stroke-width="1.5" marker-end="url(#arrowRed)" />
+
+    <!-- LKAS Autonomous Brake -->
+    <rect x="324" y="28" width="276" height="58" rx="4" fill="#161b22" stroke="#da3633" stroke-width="1" />
+    <text x="334" y="46" fill="#f85149" font-size="10" font-weight="600">LKAS Autonomous Brake (Treaty 6)</text>
+    <text x="334" y="60" fill="#c9d1d9" font-size="8.5">Sovereignty Passcode &amp; Pre-Execution Gate</text>
+    <text x="334" y="72" fill="#8b949e" font-size="8">Defective Placeholder Halt ({sec}, {TBD})</text>
+
+    <line x1="600" y1="57" x2="626" y2="57" stroke="#f85149" stroke-width="1.5" marker-end="url(#arrowRed)" />
+
+    <!-- Treaty 15 OS Monotonic Delta Auditor -->
+    <rect x="632" y="28" width="264" height="58" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="642" y="46" fill="#f0f6fc" font-size="10" font-weight="600">Treaty 15: OS Monotonic Delta Auditor</text>
+    <text x="642" y="60" fill="#c9d1d9" font-size="8.5">Kernel stat() Live Delta Audit (ΔBytes ≥ 0)</text>
+    <text x="642" y="72" fill="#3fb950" font-size="8">0-Fabrication Mathematical Proof</text>
+  </g>
+
+  <!-- Global Cybernetic Bus & Status Bar -->
+  <g transform="translate(24, 604)">
+    <rect x="0" y="0" width="912" height="30" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#3fb950" />
+    <text x="28" y="19" fill="#58a6ff" font-size="9.5" font-weight="700">CYBERNETIC INTERLOCK:</text>
+    <text x="175" y="19" fill="#8b949e" font-size="9">Negentropy Assurance (ΔS ≤ 0) · Hardware-Grade Software Interlocks · 100% Deterministic Halts · Substrate Independent</text>
+    <text x="795" y="19" fill="#3fb950" font-size="9" font-weight="600">W3C SVG 1.1 VALID</text>
+  </g>
+</svg>

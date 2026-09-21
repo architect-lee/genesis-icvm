@@ -1,0 +1,64 @@
+# <Identity>
+# 
+# > Identity: 260920.2235.T08_GenesisIP_A+GitHub.Citation.cff
+# 
+# </Identity>
+
+cff-version: 1.2.0
+message: "If you utilize the In-Context Virtual Machine (ICVM) architecture, theoretical formulations, or reference implementations in your research or systems, please cite this work as specified below."
+title: "In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration in Transformer-Based Autonomous Agents"
+abstract: >-
+  Autonomous agentic workflows deployed over large language models (LLMs) suffer from compounding
+  state divergence, context drift, and catastrophic hallucination over extended operational trajectories.
+  We introduce the In-Context Virtual Machine (ICVM), a formal cybernetic computing substrate that maps
+  the classical five-layer von Neumann computing model directly onto autoregressive attention manifolds.
+  By modeling self-attention as an open thermodynamic thermodynamic system and applying an exogenous
+  non-holonomic projection operator Phi, ICVM establishes Lyapunov asymptotic stability bounds over
+  state entropy collapse. Empirical evaluations across 100-turn rigorous operational benchmarks demonstrate
+  a definitive 0.00% hallucination rate (p < 0.001) with 12.4 ms query rectification latency operating
+  within a local zero-cost computational substrate.
+authors:
+  - family-names: "Lee"
+    given-names: "Dong-wook"
+    name-particle: ""
+    alias: "Architect Lee"
+    affiliation: "Genesis Autonomous Intelligence Research, Seoul, Republic of Korea"
+    country: "KR"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Lee"
+      given-names: "Dong-wook"
+      alias: "Architect Lee"
+      affiliation: "Genesis Autonomous Intelligence Research, Seoul, Republic of Korea"
+      country: "KR"
+  title: "In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration in Transformer-Based Autonomous Agents"
+  journal: "arXiv preprint"
+  volume: "cs.AI"
+  year: 2026
+  month: 9
+  url: "https://arxiv.org/abs/2609.xxxxx"
+  doi: "10.5281/zenodo.22864944"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22864944"
+    description: "Zenodo Permanent Digital Object Identifier (0-sec Immutable DOI Archive)"
+  - type: other
+    value: "10-2026-0179765"
+    description: "Korean Intellectual Property Office (KIPO) Patent Application Number (DAS: 4FB1)"
+repository-code: "https://github.com/architect-lee/genesis-icvm"
+url: "https://github.com/architect-lee/genesis-icvm"
+license: "Apache-2.0"
+keywords:
+  - "in-context-virtual-machine"
+  - "autonomous-agents"
+  - "llm-determinism"
+  - "thermodynamic-entropy-bounds"
+  - "von-neumann-architecture"
+  - "gate-all-around-rectification"
+  - "epigenetic-self-evolution"
+  - "zero-hallucination"
+  - "patent-pending"
+  - "air-gap-moat"
+date-released: "2026-09-20"
+version: "1.0.0"
