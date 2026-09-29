@@ -188,6 +188,16 @@ See [LICENSE](LICENSE) for full legal text.
 ---
 
 
+## 10. Contact & Inquiries
+
+- **Lead Architect & Maintainer**: Architect Lee
+- **Official Correspondence**: [`architect.lee.sovereign@gmail.com`](mailto:architect.lee.sovereign@gmail.com)
+- **Technical Inquiries & Issues**: Please use [GitHub Issues](https://github.com/architect-lee/genesis-icvm/issues) or [Discussions](https://github.com/architect-lee/genesis-icvm/discussions) for architectural feedback, vulnerability reports, and reproduction inquiries.
+
+
+---
+
+
 <MK_METADATA_FORMAT>
 
 [M/K Metadata]

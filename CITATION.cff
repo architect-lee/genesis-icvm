@@ -22,6 +22,7 @@ authors:
     given-names: "Dong-wook"
     name-particle: ""
     alias: "Architect Lee"
+    email: "architect.lee.sovereign@gmail.com"
     affiliation: "Genesis Autonomous Intelligence Research, Seoul, Republic of Korea"
     country: "KR"
 preferred-citation:
@@ -30,6 +31,7 @@ preferred-citation:
     - family-names: "Lee"
       given-names: "Dong-wook"
       alias: "Architect Lee"
+      email: "architect.lee.sovereign@gmail.com"
       affiliation: "Genesis Autonomous Intelligence Research, Seoul, Republic of Korea"
       country: "KR"
   title: "In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration in Transformer-Based Autonomous Agents"
