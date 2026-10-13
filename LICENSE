@@ -31,8 +31,8 @@ The In-Context Virtual Machine (ICVM) and Genesis Autonomous Agent Architecture 
 
 1. **"Author"** means Architect Lee (Dong-wook Lee, Republic of Korea), the sole creator and sovereign architect of the Software and Architecture.
 2. **"Software"** means the source code, documentation, specifications, diagrams, scripts, and configuration files distributed under this License.
-3. **"Architecture"** means the 5-layer von Neumann in-context virtual machine architecture, including the 2nm GAA query rectification harness, 3-tier dynamic pointer topology, immutable register file mapping, universal tool routing bus, and process preservation protocols.
-4. **"Covered Patents"** means all patents, patent applications (including Republic of Korea Patent Application No. 10-2026-0179765), and future PCT international filings owned or controlled by the Author covering the Architecture.
+3. **"Architecture"** means the 5-layer von Neumann in-context virtual machine architecture, including the 2nm GAA query rectification harness, 3-tier dynamic pointer topology, immutable register file mapping, softmax denominator partitioning, $P$-period alternating core anchor grounding, wavefunction Dirac-delta collapse, optical-mechanical dual-chassis conjugate control system, universal tool routing bus, and process preservation protocols.
+4. **"Covered Patents"** means all patents, patent applications (including Republic of Korea Patent Application No. 10-2026-0195821 [Filed Oct 13, 2026, WIPO DAS: 497C; claiming domestic priority to 10-2026-0179765] and Republic of Korea Patent Application No. 10-2026-0179765 [Filed Sept 20, 2026, WIPO DAS: 4FB1]), and future PCT international filings owned or controlled by the Author covering the Architecture.
 5. **"Non-Commercial Use"** means academic research, scientific evaluation, personal non-remunerated study, open-source educational demonstrations, and publication in peer-reviewed journals.
 6. **"Commercial Use"** means any use, deployment, integration, or distribution of the Software or Architecture designed to generate direct or indirect commercial revenue, including Software-as-a-Service (SaaS), paid API endpoints, proprietary enterprise middleware, or bundling into commercial hardware/software products.
 
@@ -43,13 +43,13 @@ The In-Context Virtual Machine (ICVM) and Genesis Autonomous Agent Architecture 
 Subject to the terms and conditions of this License, the Author hereby grants to any person or institution obtaining a copy of this Software a perpetual, worldwide, non-exclusive, royalty-free license to:
 1. Reproduce, study, inspect, and execute the Software for Non-Commercial Use.
 2. Modify, adapt, and create non-commercial derivative works, provided that all original copyright notices, patent pending notices, and this License text are retained without alteration.
-3. Publish benchmarks, academic papers, and experimental evaluations, subject to mandatory attribution citing the Author and KIPO Patent Application No. 10-2026-0179765 as specified in `CITATION.cff`.
+3. Publish benchmarks, academic papers, and experimental evaluations, subject to mandatory attribution citing the Author and KIPO Patent Application Nos. 10-2026-0195821 and 10-2026-0179765 as specified in `CITATION.cff`.
 
 ---
 
 ### SECTION 3. DEFENSIVE COMMERCIAL RESERVATION & PATENT NOTICE
 
-1. **Patent Notice**: The underlying Architecture and novel execution primitives implemented in this Software are strictly protected under **Republic of Korea Patent Application No. 10-2026-0179765** ("In-Context Virtual Machine System, Operating System, and Verification Method for Deterministic Autonomous AI Agents") and associated international priority filings.
+1. **Patent Notice**: The underlying Architecture and novel execution primitives implemented in this Software are strictly protected under **Republic of Korea Patent Application No. 10-2026-0195821** (Filed Oct 13, 2026, WIPO DAS Access Code: `497C`, claiming domestic priority to **Republic of Korea Patent Application No. 10-2026-0179765**, Filed Sept 20, 2026, WIPO DAS Access Code: `4FB1`) and associated international priority filings.
 2. **Commercial Reservation**: **No commercial license is granted under this License.** Any Commercial Use requires a separate, explicit, written commercial licensing agreement executed directly with the Author.
 3. **Evaluation Grace Period**: Bona fide internal non-production technical evaluation by commercial entities is permitted for a period not exceeding thirty (30) consecutive calendar days, after which a commercial license must be secured or all deployments permanently decommissioned.
 
@@ -84,14 +84,14 @@ This License and any dispute arising out of or related to this Software or Archi
 
 [M/K Metadata]
 - M (12 Viewpoints): M5(Compliance.Governance), M10(Philosophy.Sovereignty), M6(Security.Sovereignty), M1(Technical.Architecture), M9(Data.Integrity), M7(Asset.Value)
-- K (Keywords): #GenesisDefensiveDualLicense #GDDL_1_0 #OpenAcademicGrant #CommercialReservation #PatentPeaceClause #AntiMonopolyClawback #PatentPending_10_2026_0179765 #RepublicOfKoreaLaw
+- K (Keywords): #GenesisDefensiveDualLicense #GDDL_1_0 #OpenAcademicGrant #CommercialReservation #PatentPeaceClause #AntiMonopolyClawback #PatentPending_10_2026_0195821 #PatentPending_10_2026_0179765 #RepublicOfKoreaLaw
 
 </MK_METADATA_FORMAT>
 
 
 <AUDITOR_CRITIQUE>
 - 성역 검증: Identity Header, [GENESIS_HUD], Preamble 및 Section 1~6 법률 조항, MK Metadata 및 AUDITOR_CRITIQUE 완전 구비 완료.
-- 법률적 엄밀성: 비상업적 학술 연구 완전 무료 허용(Apache-2.0 호환), 상업적 무단 독점 차단(별도 상용 계약 의무화), 특허 평화 조항(역특허/소송 시 자동 소멸), 및 대한민국 특허출원 제10-2026-0179765호와 서울중앙지방법원 전속관할권 100% 명문화.
-- 헌법 준수: 조약 2(300행 미시 셔딩: 95행으로 < 300L 완벽 준수), 조약 6(인가 암호 하 신규 자산 사출), 조약 16(write_to_file 단독 호출) 100% 엄수.
+- 법률적 엄밀성: 비상업적 학술 연구 완전 무료 허용(Apache-2.0 호환), 상업적 무단 독점 차단(별도 상용 계약 의무화), 특허 평화 조항(역특허/소송 시 자동 소멸), 및 대한민국 특허출원 제10-2026-0195821호(DAS 497C)와 제10-2026-0179765호(DAS 4FB1), 서울중앙지방법원 전속관할권 100% 명문화.
+- 헌법 준수: 조약 2(300행 미시 셔딩: 100행 수준으로 < 300L 완벽 준수), 조약 6(인가 암호 하 핀포인트 패치), 조약 16(replace_file_content 단독 호출) 100% 엄수.
 - 종결성: 모든 문장이 격식을 갖추어 마침표 온점으로 정합 종결 완료되었습니다.
 </AUDITOR_CRITIQUE>

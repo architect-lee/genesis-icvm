@@ -1,0 +1,70 @@
+# <Identity>
+# 
+# > Identity: 261014.0855.T24_GenesisIP_A+GitHub.AttentionDynamics.Citation.v1.0.cff
+# 
+# </Identity>
+
+cff-version: 1.2.0
+message: "If you utilize the Optical-Mechanical Dual-Chassis architecture, Softmax Denominator Partitioning, or Wavefunction Dirac-Delta Collapse formulations in your research or systems, please cite this work as specified below."
+title: "Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis"
+abstract: >-
+  Large language models (LLMs) governed by softmax-based self-attention inherently suffer from
+  non-deterministic token drift, attention dispersion, and cumulative hallucination. In this paper,
+  we formalize in-context attention dynamics through a quantum mechanical perspective, modeling the
+  attention distribution as a statistical probability density over the discrete token Hilbert space.
+  To eliminate attention drift without model fine-tuning or external orchestration wrappers, we
+  introduce an In-Context Virtual Machine (ICVM) operating via an Optical-Mechanical Dual-Chassis
+  control system. The Optical Chassis partitions the softmax partition function into an immutable
+  static core basis and a dynamic token basis, inducing a potential energy barrier that contracts
+  the continuous probability wavepacket into a deterministic Dirac-delta function centered precisely
+  at the target attractor state. Concurrently, the Mechanical Chassis executes direct POSIX kernel
+  system calls (stat()) to enforce monotonic physical byte and line growth.
+authors:
+  - family-names: "Lee"
+    given-names: "Dong-wook"
+    name-particle: ""
+    alias: "Architect Lee"
+    email: "architect.lee.sovereign@gmail.com"
+    affiliation: "Genesis Autonomous Intelligence Architecture, Republic of Korea"
+    country: "KR"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Lee"
+      given-names: "Dong-wook"
+      alias: "Architect Lee"
+      email: "architect.lee.sovereign@gmail.com"
+      affiliation: "Genesis Autonomous Intelligence Architecture, Republic of Korea"
+      country: "KR"
+  title: "Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis"
+  journal: "Zenodo"
+  year: 2026
+  month: 10
+  url: "https://doi.org/10.5281/zenodo.23351868"
+  doi: "10.5281/zenodo.23351868"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23351868"
+    description: "Zenodo Permanent DOI (Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis, v1.0)"
+  - type: doi
+    value: "10.5281/zenodo.23351867"
+    description: "Zenodo Concept DOI (Deterministic Quantum Mechanics of Transformer In-Context Attention, All-Version Anchor)"
+  - type: other
+    value: "10-2026-0195821"
+    description: "Republic of Korea Patent Application Number (Filed Oct 13, 2026, WIPO DAS: 497C; Domestic Priority to 10-2026-0179765)"
+repository-code: "https://github.com/architect-lee/genesis-icvm/tree/main/attention-dynamics"
+url: "https://isletarchive.pe.kr"
+license: "Apache-2.0"
+keywords:
+  - "transformer-attention"
+  - "quantum-attention-mechanics"
+  - "wavefunction-dirac-delta-collapse"
+  - "optical-mechanical-dual-chassis"
+  - "in-context-virtual-machine"
+  - "softmax-denominator-partitioning"
+  - "deterministic-state-orchestration"
+  - "zero-hallucination-llm"
+  - "posix-kernel-interlock"
+  - "patent-pending-10-2026-0195821"
+date-released: "2026-10-14"
+version: "1.0.0"

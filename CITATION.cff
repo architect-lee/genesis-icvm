@@ -12,10 +12,12 @@ abstract: >-
   state divergence, context drift, and catastrophic hallucination over extended operational trajectories.
   We introduce the In-Context Virtual Machine (ICVM), a formal cybernetic computing substrate that maps
   the classical five-layer von Neumann computing model directly onto autoregressive attention manifolds.
-  By modeling self-attention as an open thermodynamic thermodynamic system and applying an exogenous
+  By modeling self-attention as an open thermodynamic system and applying an exogenous
   non-holonomic projection operator Phi, ICVM establishes Lyapunov asymptotic stability bounds over
-  state entropy collapse. Empirical evaluations across 100-turn rigorous operational benchmarks demonstrate
-  a definitive 0.00% hallucination rate (p < 0.001) with 12.4 ms query rectification latency operating
+  state entropy collapse. Furthermore, we formalize Softmax Denominator Partitioning, P=2 Alternating Core
+  Anchor Grounding, Wavefunction Dirac-Delta Collapse, and the Optical-Mechanical Dual-Chassis Conjugate
+  Control System. Empirical evaluations across 100-turn rigorous operational benchmarks demonstrate a
+  definitive 0.00% hallucination rate (p < 0.001) and 50.0% core grounding token reduction operating
   within a local zero-cost computational substrate.
 authors:
   - family-names: "Lee"
@@ -34,33 +36,44 @@ preferred-citation:
       email: "architect.lee.sovereign@gmail.com"
       affiliation: "Genesis Autonomous Intelligence Research, Seoul, Republic of Korea"
       country: "KR"
-  title: "In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration in Transformer-Based Autonomous Agents"
-  journal: "arXiv preprint"
-  volume: "cs.AI"
+  title: "Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis"
+  journal: "Zenodo"
   year: 2026
-  month: 9
-  url: "https://arxiv.org/abs/2609.xxxxx"
-  doi: "10.5281/zenodo.22864944"
+  month: 10
+  url: "https://doi.org/10.5281/zenodo.23351868"
+  doi: "10.5281/zenodo.23351868"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.23351868"
+    description: "Zenodo Permanent DOI (Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis, v1.0)"
+  - type: doi
+    value: "10.5281/zenodo.23351867"
+    description: "Zenodo Concept DOI (Deterministic Quantum Mechanics of Transformer In-Context Attention, All-Version Anchor)"
+  - type: doi
+    value: "10.5281/zenodo.22959347"
+    description: "Zenodo Permanent DOI (In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration, v2.0)"
+  - type: doi
     value: "10.5281/zenodo.22864944"
-    description: "Zenodo Permanent Digital Object Identifier (0-sec Immutable DOI Archive)"
+    description: "Zenodo Permanent DOI (In-Context Virtual Machine: Thermodynamic Entropy Bounds and Deterministic State Orchestration, v1.0)"
+  - type: other
+    value: "10-2026-0195821"
+    description: "Republic of Korea Patent Application Number (Filed Oct 13, 2026, WIPO DAS: 497C; Domestic Priority to 10-2026-0179765)"
   - type: other
     value: "10-2026-0179765"
-    description: "Korean Intellectual Property Office (KIPO) Patent Application Number (DAS: 4FB1)"
+    description: "Republic of Korea Foundational Patent Application Number (Filed Sept 20, 2026, WIPO DAS: 4FB1)"
 repository-code: "https://github.com/architect-lee/genesis-icvm"
-url: "https://github.com/architect-lee/genesis-icvm"
+url: "https://isletarchive.pe.kr"
 license: "Apache-2.0"
 keywords:
   - "in-context-virtual-machine"
   - "autonomous-agents"
   - "llm-determinism"
+  - "softmax-denominator-partitioning"
+  - "wavefunction-dirac-delta-collapse"
+  - "optical-mechanical-dual-chassis"
   - "thermodynamic-entropy-bounds"
   - "von-neumann-architecture"
-  - "gate-all-around-rectification"
-  - "epigenetic-self-evolution"
   - "zero-hallucination"
   - "patent-pending"
-  - "air-gap-moat"
-date-released: "2026-09-25"
-version: "2.0.0"
+date-released: "2026-10-14"
+version: "1.0.0"
