@@ -1,0 +1,26 @@
+name: "IsletArchive 24/365 Multi-Source Telemetry Collector"
+
+on:
+  schedule:
+    # 3시간마다 정각 실행 (UTC 기준 0, 3, 6, 9, 12, 15, 18, 21시 / KST 기준 9, 12, 15, 18, 21, 0, 3, 6시)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # GitHub 웹 UI에서 언제든 1-Click 수동 실행 가능
+
+jobs:
+  collect-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+
+      - name: "Set up Python 3.12"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "Execute Traffic Collector"
+        env:
+          FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          python3 islet_traffic_collector.py
