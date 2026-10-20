@@ -10,17 +10,18 @@ jobs:
   collect-telemetry:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout Repository"
-        uses: actions/checkout@v4
-
+      # [GEAR 9 0-Clone Observer Effect Elimination (2026-10-20)]
+      # actions/checkout@v4 호출 시 발생하는 일 8회 자가 git clone 노이즈(H_0)를 원천 차단하기 위해
+      # Git 프로토콜 대신 raw.githubusercontent.com 순수 HTTP GET으로 수집 스크립트만 인출합니다.
       - name: "Set up Python 3.12"
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: "Execute Traffic Collector"
+      - name: "Fetch & Execute Traffic Collector (0-Clone HTTP Mode)"
         env:
           FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          curl -sSfL https://raw.githubusercontent.com/architect-lee/genesis-icvm/main/islet_traffic_collector.py -o islet_traffic_collector.py
           python3 islet_traffic_collector.py
